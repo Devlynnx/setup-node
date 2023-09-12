@@ -1,5 +1,5 @@
 name: versions
-
+all
 on:
   pull_request:
     paths-ignore:
