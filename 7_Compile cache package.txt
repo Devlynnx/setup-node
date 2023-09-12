@@ -1,0 +1,28 @@
+2023-08-10T08:04:42.7131567Z ##[debug]Evaluating condition for step: 'Compile cache package'
+2023-08-10T08:04:42.7134164Z ##[debug]Evaluating: success()
+2023-08-10T08:04:42.7134550Z ##[debug]Evaluating success:
+2023-08-10T08:04:42.7135015Z ##[debug]=> true
+2023-08-10T08:04:42.7135399Z ##[debug]Result: true
+2023-08-10T08:04:42.7136280Z ##[debug]Starting: Compile cache package
+2023-08-10T08:04:42.7275562Z ##[debug]Loading inputs
+2023-08-10T08:04:42.7276983Z ##[debug]Loading env
+2023-08-10T08:04:42.7281520Z ##[group]Run npm ci
+2023-08-10T08:04:42.7281809Z [36;1mnpm ci[0m
+2023-08-10T08:04:42.7282007Z [36;1mnpm run tsc[0m
+2023-08-10T08:04:42.7324776Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2023-08-10T08:04:42.7325098Z env:
+2023-08-10T08:04:42.7396503Z   ACTIONS_RUNTIME_TOKEN: ***
+2023-08-10T08:04:42.7397060Z   ACTIONS_CACHE_URL: https://artifactcache.actions.githubusercontent.com/0JOuaQCjStCYZGo7I4cBrQaQft4HUvoveVMpbe0uC6W1H5aG7b/
+2023-08-10T08:04:42.7397550Z   GITHUB_RUN_ID: 5817125226
+2023-08-10T08:04:42.7397827Z ##[endgroup]
+2023-08-10T08:04:42.7450386Z ##[debug]C:\Program Files\PowerShell\7\pwsh.EXE -command ". 'D:\a\_temp\14eb421e-1762-42d5-bdc7-76b3ebb61ea1.ps1'"
+2023-08-10T08:04:45.7925355Z npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+2023-08-10T08:04:47.2509792Z 
+2023-08-10T08:04:47.2511078Z added 53 packages, and audited 54 packages in 3s
+2023-08-10T08:04:47.2522261Z 
+2023-08-10T08:04:47.2522955Z found 0 vulnerabilities
+2023-08-10T08:04:48.6915514Z 
+2023-08-10T08:04:48.6916490Z > @actions/cache@3.2.1 tsc
+2023-08-10T08:04:48.6917044Z > tsc
+2023-08-10T08:04:48.6917311Z 
+2023-08-10T08:04:57.5952112Z ##[debug]Finishing: Compile cache package

@@ -1,0 +1,61 @@
+2023-08-10T08:03:31.8293333Z ##[debug]Starting: Set up job
+2023-08-10T08:03:31.8294168Z Current runner version: '2.307.1'
+2023-08-10T08:03:31.8320444Z ##[group]Operating System
+2023-08-10T08:03:31.8320973Z Microsoft Windows Server 2022
+2023-08-10T08:03:31.8321256Z 10.0.20348
+2023-08-10T08:03:31.8321579Z Datacenter
+2023-08-10T08:03:31.8321871Z ##[endgroup]
+2023-08-10T08:03:31.8322128Z ##[group]Runner Image
+2023-08-10T08:03:31.8322469Z Image: windows-2022
+2023-08-10T08:03:31.8322799Z Version: 20230804.1.0
+2023-08-10T08:03:31.8323252Z Included Software: https://github.com/actions/runner-images/blob/win22/20230804.1/images/win/Windows2022-Readme.md
+2023-08-10T08:03:31.8323870Z Image Release: https://github.com/actions/runner-images/releases/tag/win22%2F20230804.1
+2023-08-10T08:03:31.8324329Z ##[endgroup]
+2023-08-10T08:03:31.8324657Z ##[group]Runner Image Provisioner
+2023-08-10T08:03:31.8324945Z 2.0.264.1
+2023-08-10T08:03:31.8325463Z ##[endgroup]
+2023-08-10T08:03:31.8326130Z ##[group]GITHUB_TOKEN Permissions
+2023-08-10T08:03:31.8326827Z Contents: read
+2023-08-10T08:03:31.8327137Z Metadata: read
+2023-08-10T08:03:31.8327401Z Packages: read
+2023-08-10T08:03:31.8327685Z ##[endgroup]
+2023-08-10T08:03:31.8331854Z Secret source: Actions
+2023-08-10T08:03:31.8332352Z ##[debug]Primary repository: devlynnx/toolkit
+2023-08-10T08:03:31.8332759Z Prepare workflow directory
+2023-08-10T08:03:31.8415926Z ##[debug]Creating pipeline directory: 'D:\a\toolkit'
+2023-08-10T08:03:31.8418899Z ##[debug]Creating workspace directory: 'D:\a\toolkit\toolkit'
+2023-08-10T08:03:31.8420347Z ##[debug]Update context data
+2023-08-10T08:03:31.8423544Z ##[debug]Evaluating job-level environment variables
+2023-08-10T08:03:31.9160601Z ##[debug]Evaluating job container
+2023-08-10T08:03:31.9164739Z ##[debug]Evaluating job service containers
+2023-08-10T08:03:31.9167183Z ##[debug]Evaluating job defaults
+2023-08-10T08:03:31.9257163Z Prepare all required actions
+2023-08-10T08:03:31.9460518Z Getting action download info
+2023-08-10T08:03:32.2137912Z Download action repository 'actions/checkout@v2' (SHA:ee0669bd1cc54295c223e0bb666b733df41de1c5)
+2023-08-10T08:03:32.4384406Z ##[debug]Download 'https://api.github.com/repos/actions/checkout/zipball/ee0669bd1cc54295c223e0bb666b733df41de1c5' to 'D:\a\_actions\_temp_cbffa028-5d5e-4240-93a9-c7fc79f70383\a68d54ba-25a8-4fea-8618-97d7b7f60ef6.zip'
+2023-08-10T08:03:32.4995097Z ##[debug]Unwrap 'actions-checkout-ee0669b' to 'D:\a\_actions\actions\checkout\v2'
+2023-08-10T08:03:32.5402260Z ##[debug]Archive 'D:\a\_actions\_temp_cbffa028-5d5e-4240-93a9-c7fc79f70383\a68d54ba-25a8-4fea-8618-97d7b7f60ef6.zip' has been unzipped into 'D:\a\_actions\actions\checkout\v2'.
+2023-08-10T08:03:32.6145974Z Download action repository 'actions/setup-node@v1' (SHA:f1f314fca9dfce2769ece7d933488f076716723e)
+2023-08-10T08:03:32.9910248Z ##[debug]Download 'https://api.github.com/repos/actions/setup-node/zipball/f1f314fca9dfce2769ece7d933488f076716723e' to 'D:\a\_actions\_temp_6855a81b-19f3-4a63-bf02-38867422df1b\0bb4dc4c-139a-458a-bc24-cbc2c6cfbd13.zip'
+2023-08-10T08:03:33.0058916Z ##[debug]Unwrap 'actions-setup-node-f1f314f' to 'D:\a\_actions\actions\setup-node\v1'
+2023-08-10T08:03:33.0159857Z ##[debug]Archive 'D:\a\_actions\_temp_6855a81b-19f3-4a63-bf02-38867422df1b\0bb4dc4c-139a-458a-bc24-cbc2c6cfbd13.zip' has been unzipped into 'D:\a\_actions\actions\setup-node\v1'.
+2023-08-10T08:03:33.0243742Z ##[debug]action.yml for action: 'D:\a\_actions\actions\checkout\v2\action.yml'.
+2023-08-10T08:03:33.1221097Z ##[debug]action.yml for action: 'D:\a\_actions\actions\setup-node\v1\action.yml'.
+2023-08-10T08:03:33.1400613Z ##[debug]Set step '__actions_checkout' display name to: 'Checkout'
+2023-08-10T08:03:33.1406326Z ##[debug]Set step '__run' display name to: 'Run rm "C:\Program Files\Git\usr\bin\tar.exe"'
+2023-08-10T08:03:33.1407964Z ##[debug]Set step '__actions_setup-node' display name to: 'Set Node.js 16.x'
+2023-08-10T08:03:33.1413452Z ##[debug]Set step '__self' display name to: 'Set env variables'
+2023-08-10T08:03:33.1414682Z ##[debug]Set step '__run_2' display name to: 'Install root npm packages'
+2023-08-10T08:03:33.1418211Z ##[debug]Set step '__run_3' display name to: 'Compile cache package'
+2023-08-10T08:03:33.1419320Z ##[debug]Set step '__run_4' display name to: 'Generate files in working directory'
+2023-08-10T08:03:33.1420511Z ##[debug]Set step '__run_5' display name to: 'Generate files outside working directory'
+2023-08-10T08:03:33.1421562Z ##[debug]Set step '__run_6' display name to: 'Save cache using saveCache()'
+2023-08-10T08:03:33.1422720Z ##[debug]Set step '__run_7' display name to: 'Delete cache folders before restoring'
+2023-08-10T08:03:33.1423976Z ##[debug]Set step '__run_8' display name to: 'Restore cache using restoreCache() with http-client'
+2023-08-10T08:03:33.1425116Z ##[debug]Set step '__run_9' display name to: 'Verify cache restored with http-client'
+2023-08-10T08:03:33.1426274Z ##[debug]Set step '__run_10' display name to: 'Delete cache folders before restoring'
+2023-08-10T08:03:33.1427444Z ##[debug]Set step '__run_11' display name to: 'Restore cache using restoreCache() with Azure SDK'
+2023-08-10T08:03:33.1428570Z ##[debug]Set step '__run_12' display name to: 'Verify cache restored with Azure SDK'
+2023-08-10T08:03:33.1429675Z Complete job name: Build
+2023-08-10T08:03:33.1980383Z ##[debug]Collect running processes for tracking orphan processes.
+2023-08-10T08:03:33.2123937Z ##[debug]Finishing: Set up job

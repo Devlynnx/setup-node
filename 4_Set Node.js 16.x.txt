@@ -1,0 +1,37 @@
+2023-08-10T08:03:43.0148395Z ##[debug]Evaluating condition for step: 'Set Node.js 16.x'
+2023-08-10T08:03:43.0150788Z ##[debug]Evaluating: success()
+2023-08-10T08:03:43.0151254Z ##[debug]Evaluating success:
+2023-08-10T08:03:43.0151832Z ##[debug]=> true
+2023-08-10T08:03:43.0152334Z ##[debug]Result: true
+2023-08-10T08:03:43.0153022Z ##[debug]Starting: Set Node.js 16.x
+2023-08-10T08:03:43.0300217Z ##[debug]Loading inputs
+2023-08-10T08:03:43.0303449Z ##[debug]Loading env
+2023-08-10T08:03:43.0316151Z ##[group]Run actions/setup-node@v1
+2023-08-10T08:03:43.0316496Z with:
+2023-08-10T08:03:43.0316776Z   node-version: 16.x
+2023-08-10T08:03:43.0317043Z   always-auth: false
+2023-08-10T08:03:43.0317359Z ##[endgroup]
+2023-08-10T08:03:44.0308170Z ##[debug]isExplicit: 
+2023-08-10T08:03:44.0309240Z ##[debug]explicit? false
+2023-08-10T08:03:44.0519613Z ##[debug]isExplicit: 14.21.3
+2023-08-10T08:03:44.0520510Z ##[debug]explicit? true
+2023-08-10T08:03:44.0715188Z ##[debug]isExplicit: 16.20.1
+2023-08-10T08:03:44.0717563Z ##[debug]explicit? true
+2023-08-10T08:03:44.1109937Z ##[debug]isExplicit: 18.17.0
+2023-08-10T08:03:44.1111234Z ##[debug]explicit? true
+2023-08-10T08:03:44.1502794Z ##[debug]evaluating 3 versions
+2023-08-10T08:03:44.1543381Z ##[debug]matched: 16.20.1
+2023-08-10T08:03:44.1544448Z ##[debug]checking cache: C:\hostedtoolcache\windows\node\16.20.1\x64
+2023-08-10T08:03:44.1545393Z ##[debug]Found tool in cache node 16.20.1 x64
+2023-08-10T08:03:44.1805006Z [command]C:\hostedtoolcache\windows\node\16.20.1\x64\node.exe --version
+2023-08-10T08:03:46.8858076Z v16.20.1
+2023-08-10T08:03:46.8925317Z [command]C:\Windows\system32\cmd.exe /D /S /C "C:\hostedtoolcache\windows\node\16.20.1\x64\npm.cmd --version"
+2023-08-10T08:04:01.8828580Z 8.19.4
+2023-08-10T08:04:01.9001151Z ##[add-matcher]D:\a\_actions\actions\setup-node\v1\.github\tsc.json
+2023-08-10T08:04:01.9021199Z ##[debug]Added matchers: 'tsc'. Problem matchers scan action output for known warning or error strings and report these inline.
+2023-08-10T08:04:01.9022274Z ##[add-matcher]D:\a\_actions\actions\setup-node\v1\.github\eslint-stylish.json
+2023-08-10T08:04:01.9039612Z ##[debug]Added matchers: 'eslint-stylish'. Problem matchers scan action output for known warning or error strings and report these inline.
+2023-08-10T08:04:01.9040578Z ##[add-matcher]D:\a\_actions\actions\setup-node\v1\.github\eslint-compact.json
+2023-08-10T08:04:01.9045622Z ##[debug]Added matchers: 'eslint-compact'. Problem matchers scan action output for known warning or error strings and report these inline.
+2023-08-10T08:04:01.9074259Z ##[debug]Node Action run completed with exit code 0
+2023-08-10T08:04:01.9077996Z ##[debug]Finishing: Set Node.js 16.x

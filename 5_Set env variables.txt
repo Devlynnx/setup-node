@@ -1,0 +1,15 @@
+2023-08-10T08:04:01.9093226Z ##[debug]Evaluating condition for step: 'Set env variables'
+2023-08-10T08:04:01.9095267Z ##[debug]Evaluating: success()
+2023-08-10T08:04:01.9095747Z ##[debug]Evaluating success:
+2023-08-10T08:04:01.9096285Z ##[debug]=> true
+2023-08-10T08:04:01.9096759Z ##[debug]Result: true
+2023-08-10T08:04:01.9097557Z ##[debug]Starting: Set env variables
+2023-08-10T08:04:01.9234078Z ##[debug]Loading inputs
+2023-08-10T08:04:01.9234726Z ##[debug]Loading env
+2023-08-10T08:04:01.9241660Z ##[group]Run ./packages/cache/__tests__/__fixtures__/
+2023-08-10T08:04:01.9242035Z ##[endgroup]
+2023-08-10T08:04:01.9936411Z ##[debug]Node Action run completed with exit code 0
+2023-08-10T08:04:02.0012799Z ##[debug]ACTIONS_RUNTIME_TOKEN='***'
+2023-08-10T08:04:02.0013576Z ##[debug]ACTIONS_CACHE_URL='https://artifactcache.actions.githubusercontent.com/0JOuaQCjStCYZGo7I4cBrQaQft4HUvoveVMpbe0uC6W1H5aG7b/'
+2023-08-10T08:04:02.0014106Z ##[debug]GITHUB_RUN_ID='5817125226'
+2023-08-10T08:04:02.0016574Z ##[debug]Finishing: Set env variables

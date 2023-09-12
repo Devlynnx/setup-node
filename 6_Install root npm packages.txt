@@ -1,0 +1,26 @@
+2023-08-10T08:04:02.0031928Z ##[debug]Evaluating condition for step: 'Install root npm packages'
+2023-08-10T08:04:02.0033889Z ##[debug]Evaluating: success()
+2023-08-10T08:04:02.0034245Z ##[debug]Evaluating success:
+2023-08-10T08:04:02.0034801Z ##[debug]=> true
+2023-08-10T08:04:02.0035204Z ##[debug]Result: true
+2023-08-10T08:04:02.0035905Z ##[debug]Starting: Install root npm packages
+2023-08-10T08:04:02.0158839Z ##[debug]Loading inputs
+2023-08-10T08:04:02.0159980Z ##[debug]Loading env
+2023-08-10T08:04:02.0164641Z ##[group]Run npm ci
+2023-08-10T08:04:02.0164883Z [36;1mnpm ci[0m
+2023-08-10T08:04:02.0210960Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2023-08-10T08:04:02.0211355Z env:
+2023-08-10T08:04:02.0283499Z   ACTIONS_RUNTIME_TOKEN: ***
+2023-08-10T08:04:02.0284079Z   ACTIONS_CACHE_URL: https://artifactcache.actions.githubusercontent.com/0JOuaQCjStCYZGo7I4cBrQaQft4HUvoveVMpbe0uC6W1H5aG7b/
+2023-08-10T08:04:02.0284581Z   GITHUB_RUN_ID: 5817125226
+2023-08-10T08:04:02.0284788Z ##[endgroup]
+2023-08-10T08:04:02.0335853Z ##[debug]C:\Program Files\PowerShell\7\pwsh.EXE -command ". 'D:\a\_temp\a75d6fbe-9e49-4e79-b218-bb4325e5cf89.ps1'"
+2023-08-10T08:04:16.1190046Z npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+2023-08-10T08:04:41.8145192Z 
+2023-08-10T08:04:41.8149803Z added 1060 packages, and audited 1061 packages in 38s
+2023-08-10T08:04:41.8150769Z 
+2023-08-10T08:04:41.8155701Z 186 packages are looking for funding
+2023-08-10T08:04:41.8163927Z   run `npm fund` for details
+2023-08-10T08:04:41.8172853Z 
+2023-08-10T08:04:41.8177500Z found 0 vulnerabilities
+2023-08-10T08:04:42.7110918Z ##[debug]Finishing: Install root npm packages
